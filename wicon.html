@@ -1,50 +1,72 @@
 <!DOCTYPE html>
-<html id="langch" lang="en">
+<html id="langch" lang="zh">
 <head>
     <meta charset="UTF-8">
     <link href="img/wicon_0.png" rel="shortcut icon">
-    <meta name="Keywords" content="weioua,wicon,wi,维克">
     <title>WICON</title>
 </head>
-<body>
-<a><img alt="[]" src="img/wicon_0.png" width="20%"><a onclick="zh()" style="margin: 10px 20px;font-size: 25px;
-font-family: '仓耳渔阳体 W03', serif"><br>维克标识 © 2021</a>
-</a>
-<div style="margin: 10px 40px;padding:20px;border-radius:30px;
+<body style="margin: 0">
+<a onclick="zh()"><img alt="[]" src="img/wicon_0.png" style="margin: 30px" width="20%"></a>
+<div style="margin: 10px 30px;padding:20px;border-radius:24px;
+background-color:#2d522d;color: white;text-align: center">
+    <h1>ONEs & BETA ,<br><a style="font-size: 26px;color: #b3b3b3;
+    font-weight: normal;">the second edition of 'ONE' and the second generation of Wicon</a></h1>
+    <p><img alt="[]" src="img/wicon_A1.png" width="3%"><a><br>START, ENGINE</a></p>
+    <p><img alt="[]" src="img/wicon_A4.png" width="3%"><a><br>PHONE, VIDEO, SOUND</a></p>
+    <p><a class="cona" download="one-1" href="img/" title="download"
+           style="margin-right: 100px;padding: 4px 20px;border-radius: 30px"
+        >下 载</a><a  class="cona" href="#beta-1" style="margin-left: 100px;padding: 4px 20px;
+        border-radius: 30px" title="information">信 息</a></p>
+    <h1></h1>
+</div>
+<div style="margin: 10px 30px;padding:20px;border-radius:24px;
 background-color:#213654;color: white;text-align: center">
-    <h1>We made the first edition of WICON: 'ONE':</h1>
+    <h1>We made the first edition: 'ONE':</h1>
     <p><img alt="[]" src="img/wicon_A1.png" width="3%"><a><br>START, ENGINE</a></p>
     <p><img alt="[]" src="img/wicon_A2.png" width="3%"><a><br>MANU, SETTING, REMINDER</a></p>
     <p><img alt="[]" src="img/wicon_A3.png" width="3%"><a><br>MAILBOX, MESSAGE</a></p>
     <p><img alt="[]" src="img/wicon_A4.png" width="3%"><a><br>PHONE, VIDEO, SOUND</a></p>
-    <a class="div1" style="color: black">
-        <a download="one-1" href="img/"
-           style="margin-right: 100px;border: #b4b3b3 solid;background: #b4b3b3"
-        >download</a><a href="#one1" style="margin-left: 100px">IDENTITY</a>
-    </a>
+    <p><a class="cona" download="one-1" href="img/" title="download"
+           style="margin-right: 100px;padding: 4px 20px;border-radius: 30px"
+        >下 载</a><a  class="cona" href="#one1" style="margin-left: 100px;padding: 4px 20px;
+        border-radius: 30px" title="information">信 息</a></p>
+    <h1></h1>
 </div>
-<div style="margin: 10px">
-    <h2 id="one1">·Release：ONE-1，21901.4，163111912</h2>
-    <a>4 icon: <a download="one-1" href="img/">Download</a></a>
-    <h2>·Beta*：ONE-2，21902.+2，--</h2>
-    <h2>·not Release...</h2>
-    <h3>__ __<br>history</h3>
+<div style="margin: 30px">
+    <h2 id="one1">·Release: ONE, 21901.4, 1PS0xH6</h2>
+    <a>>4 icon: <a download="one-1" href="img/">Download</a></a><br>
+    <a>>START, MANU, MESSAGE, SOUND</a>
+    <h2>·Release: ONEs, 21902.6, 3dFocWe</h2>
+    <a>>2 icon: <a download="ones" href="img/">Download</a></a><br>
+    <a>>START</a>
+    <h2 id="beta-1">·Release: BETA, 22329.4, 3e6szch</h2>
+    <a>>4 icon: <a download="beta-1" href="img/">Download</a></a><br>
+    <a>>START</a>
+    <!-- <h3>__ __<br>history</h3> -->
+</div>
+<div style="background: #1a1a1a;text-align: center;font-size: 16px;padding:10px 0;color: #747474">
+    2022&copyWICON 维克标识
 </div>
 </body>
 <style>
-    .div1 {
+    .cona{
+        font-size: 20px;
+        font-weight: bold;
         color: black;
         text-decoration: none;
+        background: #b0b0b0;
+        transition: background 0.4s;
     }
-    .div1:visited{
-        color: black;
-        text-decoration: none;
+    .cona:hover {
+        color: #273f81;
+        background: #ffffff;
+        transition: background 0.4s;
     }
 </style>
 <script>
     function zh() {
         const a = document.getElementById('langch');
-        a.lang = "zh";
+        a.lang = "en";
     }
 </script>
 </html>
