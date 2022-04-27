@@ -1,4 +1,4 @@
-## 点击 [wicon](https://weioua.github.io/wicon.html)
+## 点击 [wicon](https://weioua.github.io/wicon)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/weioua/weioua.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
